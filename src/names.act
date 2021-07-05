@@ -1,0 +1,17 @@
+constructor of Names
+interface constructor()
+
+creates
+
+    bytes32 hash := 0
+
+behaviour register of Names
+interface register(bytes32 _hash)
+
+iff
+
+    CALLVALUE >= 10 ^ 17
+
+storage
+
+    hash => _hash
