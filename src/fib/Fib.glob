@@ -1,0 +1,174 @@
+DIGEST dc8c451f6da3f4caf74f0f674e29cefa
+FFib.Fib
+R47:63 Coq.ZArith.ZArith <> <> lib
+R81:93 ActLib.ActLib <> <> lib
+R104:121 Coq.Strings.String <> <> lib
+R139:156 Coq.Strings.String <> <> modtype
+mod 132:134 <> Str
+constr 202:206 <> state
+rec 187:191 <> State
+proj 210:213 <> curr
+proj 221:224 <> prev
+R217:217 Coq.Numbers.BinNums <> Z ind
+R228:228 Coq.Numbers.BinNums <> Z ind
+def 246:250 <> next0
+R261:265 Fib.Fib <> State rec
+binder 253:257 <> STATE:4
+R272:276 Fib.Fib <> state constr
+R280:280 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R291:295 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R306:306 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R281:284 Fib.Fib <> curr proj
+R286:290 Fib.Fib <> STATE:4 var
+R296:299 Fib.Fib <> prev proj
+R301:305 Fib.Fib <> STATE:4 var
+R312:315 Fib.Fib <> curr proj
+R317:321 Fib.Fib <> STATE:4 var
+ind 339:347 <> next0_ret
+constr 383:397 <> next0_ret_intro
+R358:362 Fib.Fib <> State rec
+binder 350:354 <> STATE:5
+R369:372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:368 Coq.Numbers.BinNums <> Z ind
+R406:406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R496:502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R407:407 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R442:447 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R495:495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R409:413 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R441:441 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R414:414 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R425:429 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R440:440 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R415:418 Fib.Fib <> curr proj
+R420:424 Fib.Fib <> STATE:5 var
+R430:433 Fib.Fib <> prev proj
+R435:439 Fib.Fib <> STATE:5 var
+R448:448 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R476:481 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R494:494 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R449:449 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R460:464 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R475:475 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R450:453 Fib.Fib <> curr proj
+R455:459 Fib.Fib <> STATE:5 var
+R465:468 Fib.Fib <> prev proj
+R470:474 Fib.Fib <> STATE:5 var
+R482:489 ActLib.ActLib <> UINT_MAX def
+R503:503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R559:565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R504:504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R522:527 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R558:558 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R506:510 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R521:521 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R511:514 Fib.Fib <> prev proj
+R516:520 Fib.Fib <> STATE:5 var
+R528:528 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R539:544 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R557:557 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R529:532 Fib.Fib <> prev proj
+R534:538 Fib.Fib <> STATE:5 var
+R545:552 ActLib.ActLib <> UINT_MAX def
+R566:566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R622:628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R567:567 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R585:590 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R621:621 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R569:573 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R584:584 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R574:577 Fib.Fib <> curr proj
+R579:583 Fib.Fib <> STATE:5 var
+R591:591 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R602:607 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R620:620 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R592:595 Fib.Fib <> curr proj
+R597:601 Fib.Fib <> STATE:5 var
+R608:615 ActLib.ActLib <> UINT_MAX def
+R629:637 Fib.Fib <> next0_ret:6 ind
+R647:647 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R658:662 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R673:673 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R648:651 Fib.Fib <> curr proj
+R653:657 Fib.Fib <> STATE:5 var
+R663:666 Fib.Fib <> prev proj
+R668:672 Fib.Fib <> STATE:5 var
+R639:643 Fib.Fib <> STATE:5 var
+def 692:695 <> Fib0
+R701:705 Fib.Fib <> state constr
+ind 729:737 <> reachable
+constr 770:778 <> Fib0_base
+constr 817:826 <> next0_step
+R747:750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R742:746 Fib.Fib <> State rec
+R756:759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R751:755 Fib.Fib <> State rec
+R788:796 Fib.Fib <> reachable:8 ind
+R807:810 Fib.Fib <> Fib0 def
+R799:802 Fib.Fib <> Fib0 def
+R851:855 Fib.Fib <> State rec
+binder 838:841 <> BASE:10
+binder 843:847 <> STATE:11
+R884:889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R864:872 Fib.Fib <> reachable:8 ind
+R879:883 Fib.Fib <> STATE:11 var
+R874:877 Fib.Fib <> BASE:10 var
+R890:890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R980:986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R891:891 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R926:931 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R979:979 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R893:897 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R925:925 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R898:898 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R909:913 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R924:924 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R899:902 Fib.Fib <> curr proj
+R904:908 Fib.Fib <> STATE:11 var
+R914:917 Fib.Fib <> prev proj
+R919:923 Fib.Fib <> STATE:11 var
+R932:932 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R960:965 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R978:978 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R933:933 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R944:948 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R959:959 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R934:937 Fib.Fib <> curr proj
+R939:943 Fib.Fib <> STATE:11 var
+R949:952 Fib.Fib <> prev proj
+R954:958 Fib.Fib <> STATE:11 var
+R966:973 ActLib.ActLib <> UINT_MAX def
+R987:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1043:1049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:988 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1006:1011 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1042:1042 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R990:994 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1005:1005 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R995:998 Fib.Fib <> prev proj
+R1000:1004 Fib.Fib <> STATE:11 var
+R1012:1012 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1023:1028 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1041:1041 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1013:1016 Fib.Fib <> prev proj
+R1018:1022 Fib.Fib <> STATE:11 var
+R1029:1036 ActLib.ActLib <> UINT_MAX def
+R1050:1050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1106:1112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1051:1051 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1069:1074 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1105:1105 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1053:1057 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1068:1068 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1058:1061 Fib.Fib <> curr proj
+R1063:1067 Fib.Fib <> STATE:11 var
+R1075:1075 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1086:1091 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1104:1104 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1076:1079 Fib.Fib <> curr proj
+R1081:1085 Fib.Fib <> STATE:11 var
+R1092:1099 ActLib.ActLib <> UINT_MAX def
+R1113:1121 Fib.Fib <> reachable:8 ind
+R1129:1133 Fib.Fib <> next0 def
+R1135:1139 Fib.Fib <> STATE:11 var
+R1123:1126 Fib.Fib <> BASE:10 var

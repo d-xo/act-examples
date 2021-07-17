@@ -1,0 +1,24 @@
+constructor of Fib
+interface constructor()
+
+creates
+
+  uint prev := 0
+  uint curr := 1
+  uint n := 1
+
+behaviour next of Fib
+interface next()
+
+iff in range uint256
+
+  curr + prev
+  n + 1
+
+storage
+
+  prev => curr
+  curr => curr + prev
+  n => n + 1
+
+returns curr + prev

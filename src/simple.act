@@ -1,0 +1,26 @@
+constructor of Auth
+interface constructor()
+
+creates
+
+  mapping (address => bool) wards := []
+
+behaviour rely of Auth
+interface rely(address usr)
+
+iff
+  CALLVALUE == 0
+  wards[CALLER] == true
+
+storage
+  wards[usr] => true
+
+behaviour deny of Auth
+interface deny(address usr)
+
+iff
+  CALLVALUE == 0
+  wards[CALLER] == true
+
+storage
+  wards[usr] => false

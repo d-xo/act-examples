@@ -1,26 +1,26 @@
 {
     "act": {
-        "branch": "master",
+        "branch": "bump-hevm",
         "description": "Smart contract specification language",
         "homepage": "",
         "owner": "ethereum",
         "repo": "act",
-        "rev": "031f8ad2f978822a478bf9a33b9beacb6d00e04e",
-        "sha256": "1mkdhaf0lmkcgz4hwgi3c780bxdigp3d9k8z70ypnn370biyhc2c",
+        "rev": "457991853a8c9413d736717f1bc35841f54b56fc",
+        "sha256": "0rcqdjc22v84kc72lhy453njgs750dhmfmp45zacgifmxpb7ykmr",
         "type": "tarball",
-        "url": "https://github.com/ethereum/act/archive/031f8ad2f978822a478bf9a33b9beacb6d00e04e.tar.gz",
+        "url": "https://github.com/ethereum/act/archive/457991853a8c9413d736717f1bc35841f54b56fc.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dapptools": {
-        "branch": "fix-storage-layout-parsing",
+        "branch": "master",
         "description": "Dapp, Seth, Hevm, and more",
         "homepage": "https://dapp.tools",
         "owner": "dapphub",
         "repo": "dapptools",
-        "rev": "63e98cd7294c53823e3b7b6afd61afa9cf2762ef",
-        "sha256": "0h30w72bbcgm233m8a8xwgzb76scgpv4diy9ap409587qm26p98p",
+        "rev": "a8ef1193a24c97e89c4f33b2a4675ec4d1bd5f2c",
+        "sha256": "0d842lipv9x37gnzdbnzg7j1q9f0dpw884cb3r1nhv1q2ggm9c1j",
         "type": "tarball",
-        "url": "https://github.com/dapphub/dapptools/archive/63e98cd7294c53823e3b7b6afd61afa9cf2762ef.tar.gz",
+        "url": "https://github.com/dapphub/dapptools/archive/a8ef1193a24c97e89c4f33b2a4675ec4d1bd5f2c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
