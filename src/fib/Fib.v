@@ -9,27 +9,30 @@ Open Scope Z_scope.
 
 Record State : Set := state
 { curr : Z
+; n : Z
 ; prev : Z
 }.
 
 
 Definition next0 (STATE : State)  :=
-state (((curr STATE) + (prev STATE))) ((curr STATE))
+state (((curr STATE) + (prev STATE))) (((n STATE) + 1)) ((curr STATE))
 .
 
 
 Inductive next0_ret (STATE : State)  : Z -> Prop :=
 | next0_ret_intro :
      ((0 <= ((curr STATE) + (prev STATE))) /\ (((curr STATE) + (prev STATE)) <= (UINT_MAX 256)))
+  -> ((0 <= ((n STATE) + 1)) /\ (((n STATE) + 1) <= (UINT_MAX 256)))
   -> ((0 <= (prev STATE)) /\ ((prev STATE) <= (UINT_MAX 256)))
   -> ((0 <= (curr STATE)) /\ ((curr STATE) <= (UINT_MAX 256)))
+  -> ((0 <= (n STATE)) /\ ((n STATE) <= (UINT_MAX 256)))
   -> next0_ret STATE  ((curr STATE) + (prev STATE))
 
 .
 
 
 Definition Fib0  :=
-state (1) (0)
+state (1) (1) (0)
 .
 
 
@@ -40,8 +43,10 @@ Inductive reachable  : State -> State -> Prop :=
 | next0_step : forall (BASE STATE : State),
      reachable BASE STATE
   -> ((0 <= ((curr STATE) + (prev STATE))) /\ (((curr STATE) + (prev STATE)) <= (UINT_MAX 256)))
+  -> ((0 <= ((n STATE) + 1)) /\ (((n STATE) + 1) <= (UINT_MAX 256)))
   -> ((0 <= (prev STATE)) /\ ((prev STATE) <= (UINT_MAX 256)))
   -> ((0 <= (curr STATE)) /\ ((curr STATE) <= (UINT_MAX 256)))
+  -> ((0 <= (n STATE)) /\ ((n STATE) <= (UINT_MAX 256)))
   -> reachable BASE (next0 STATE )
 
 .

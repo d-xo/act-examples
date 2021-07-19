@@ -1,7 +1,0 @@
--Q . Fib
--Q ../../lib/ActLib ActLib
-
-../../lib/ActLib/ActLib.v
-Fib.v
-Theory.v
-

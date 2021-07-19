@@ -1,14 +1,14 @@
 {
     "act": {
-        "branch": "bump-hevm",
+        "branch": "master",
         "description": "Smart contract specification language",
         "homepage": "",
         "owner": "ethereum",
         "repo": "act",
-        "rev": "457991853a8c9413d736717f1bc35841f54b56fc",
-        "sha256": "0rcqdjc22v84kc72lhy453njgs750dhmfmp45zacgifmxpb7ykmr",
+        "rev": "75cf12f9b99488fb902a19c1e9225eb75a81f1c4",
+        "sha256": "1lszr7xwb9k5745m47vpiwcpbqp9213j1s4p52bsakpvyd9zk9il",
         "type": "tarball",
-        "url": "https://github.com/ethereum/act/archive/457991853a8c9413d736717f1bc35841f54b56fc.tar.gz",
+        "url": "https://github.com/ethereum/act/archive/75cf12f9b99488fb902a19c1e9225eb75a81f1c4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dapptools": {
@@ -17,10 +17,10 @@
         "homepage": "https://dapp.tools",
         "owner": "dapphub",
         "repo": "dapptools",
-        "rev": "a8ef1193a24c97e89c4f33b2a4675ec4d1bd5f2c",
-        "sha256": "0d842lipv9x37gnzdbnzg7j1q9f0dpw884cb3r1nhv1q2ggm9c1j",
+        "rev": "1137f0edf51482147141f46a3eae90032a034d19",
+        "sha256": "1pf9547qa8k2zfzf19hppp9ynp9qpm8wnbi4rcgbp325gd4bp4x1",
         "type": "tarball",
-        "url": "https://github.com/dapphub/dapptools/archive/a8ef1193a24c97e89c4f33b2a4675ec4d1bd5f2c.tar.gz",
+        "url": "https://github.com/dapphub/dapptools/archive/1137f0edf51482147141f46a3eae90032a034d19.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
