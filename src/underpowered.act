@@ -1,0 +1,38 @@
+constructor of C
+interface constructor()
+
+creates
+
+  uint x := 0
+
+invariants
+
+  x < 9
+
+behaviour f of C
+interface f()
+
+case x == 0:
+
+  storage
+
+    x => 1
+
+behaviour g of C
+interface g()
+
+case x == 1:
+
+  storage
+
+    x => 2
+
+behaviour h of C
+interface h()
+
+case x == 7:
+
+  storage
+
+    x => 100
+

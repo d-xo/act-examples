@@ -1,26 +1,20 @@
-constructor of Auth
+constructor of Simple
 interface constructor()
 
 creates
 
-  mapping (address => bool) wards := []
+  uint val := 0
 
-behaviour rely of Auth
-interface rely(address usr)
-
-iff
-  CALLVALUE == 0
-  wards[CALLER] == true
-
-storage
-  wards[usr] => true
-
-behaviour deny of Auth
-interface deny(address usr)
+behaviour set of Simple
+interface set(uint x)
 
 iff
-  CALLVALUE == 0
-  wards[CALLER] == true
+
+  x > 100
 
 storage
-  wards[usr] => false
+
+  val => x
+
+returns x
+

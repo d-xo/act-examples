@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "ethereum",
         "repo": "act",
-        "rev": "75cf12f9b99488fb902a19c1e9225eb75a81f1c4",
-        "sha256": "1lszr7xwb9k5745m47vpiwcpbqp9213j1s4p52bsakpvyd9zk9il",
+        "rev": "774c07a5fd1d900dee3d8f19fe8e7f6635c11b8b",
+        "sha256": "0sms4n46i364fwvrgvl6qllxf2hz7cqxl5i2ij1v8x9wp06m1cc7",
         "type": "tarball",
-        "url": "https://github.com/ethereum/act/archive/75cf12f9b99488fb902a19c1e9225eb75a81f1c4.tar.gz",
+        "url": "https://github.com/ethereum/act/archive/774c07a5fd1d900dee3d8f19fe8e7f6635c11b8b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dapptools": {
@@ -17,10 +17,11 @@
         "homepage": "https://dapp.tools",
         "owner": "dapphub",
         "repo": "dapptools",
-        "rev": "1137f0edf51482147141f46a3eae90032a034d19",
-        "sha256": "1pf9547qa8k2zfzf19hppp9ynp9qpm8wnbi4rcgbp325gd4bp4x1",
+        "rev": "a2b96cc2dbc28508c9fe699d6438bf6eccafc2ad",
+        "sha256": "09dc8f35i1l11qvvl71ai0nkhn8xawv1ms38ifcyjfw11s81qcwn",
         "type": "tarball",
-        "url": "https://github.com/dapphub/dapptools/archive/1137f0edf51482147141f46a3eae90032a034d19.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+        "url": "https://github.com/dapphub/dapptools/archive/a2b96cc2dbc28508c9fe699d6438bf6eccafc2ad.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "package-local-remappings"
     }
 }

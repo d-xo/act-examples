@@ -8,7 +8,7 @@ creates
 
 invariants
 
-    1000 * 1000 == reserve0 * reserve1
+    1000 * 1000 <= reserve0 * reserve1
 
 behaviour swap0 of Amm
 interface swap0(uint256 amt)
@@ -16,7 +16,6 @@ interface swap0(uint256 amt)
 iff in range uint256
 
     reserve0 + amt
-    reserve0 * reserve1
 
 storage
 
@@ -29,7 +28,6 @@ interface swap1(uint256 amt)
 iff in range uint256
 
     reserve1 + amt
-    reserve0 * reserve1
 
 storage
 

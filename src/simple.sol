@@ -1,20 +1,17 @@
-// SPDX-License-Identifier: AGPL3+
+// SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity ^0.8.6;
 
-contract Auth {
-    mapping(address => bool) wards;
+contract Simple {
+    uint val;
 
-    modifier auth {
-        require(wards[msg.sender], "unauthorised");
-        _;
-    }
-
-    function rely(address usr) external auth {
-        wards[usr] = true;
-    }
-
-    function deny(address usr) external auth {
-        wards[usr] = false;
+    function set(uint x) external payable returns (uint) {
+        require(x > 100);
+        if (x == 2000) {
+          val = x + 1;
+        } else {
+          val = x;
+        }
+        return x;
     }
 }
 
